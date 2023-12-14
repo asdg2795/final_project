@@ -1,0 +1,63 @@
+.body {
+    width: 1150px; /* 페이지의 폭을 1000px로 고정 */
+    height: 700px; /* 페이지의 높이를 700px로 고정 */
+    margin: 0 auto; /* 가운데 정렬을 위해 margin을 auto로 설정 */
+    background-color: #f0f0f0; /* 페이지의 배경색 설정 (선택사항) */
+  }
+
+.main{
+    display: flex;
+}
+
+.main_div2{
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+
+.wkbtn{
+    margin-top: 30px;
+    margin-left: -868px;
+}
+
+
+#map {
+    height: 500px;
+    width: 600px;
+    margin-top: 140px;
+    margin-left: 50px;
+    box-shadow: 0 4px 10px rgba(10, 10, 10, 10); /* 그림자 설정 */
+}
+
+
+
+#bt3{
+    margin-left: 1010px;
+}
+
+.wkpr_header{
+    position:absolute;
+    width: 1050px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.inputset {
+    position: relative;
+  }
+  
+  .search-icon-container {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* 조절 가능한 값 */
+    transform: translateY(-50%);
+  }
+  
+  .search-icon {
+    width: 20px; /* 조절 가능한 값 */
+    height: 20px; /* 조절 가능한 값 */
+    cursor: pointer;
+  }
+  
